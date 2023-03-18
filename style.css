@@ -1,0 +1,87 @@
+/* Stile per il font della pagina ed altri parametri */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Stile per il body in cui c'è l'immagine di background */
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Stile del container principale con trasparenza regolata tramite colori rgba */
+.container{
+    width: 70%;
+    height: 100%;
+    margin: 20px auto auto auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    position: relative;
+    padding: 50px;
+}
+
+/* Stile Header, che allinea il testo al suo interno al centro e lo colora di lime */
+header{
+    text-align: center;
+    color: lime;
+}
+
+/* Stile immagine all'interno dell'header  */
+header > img{
+    width: 250px;
+    margin-top: 40px;
+}
+
+/* Stile Testo all'interno dell'header  */
+header > h1{
+    margin-top: 10px;
+}
+
+/* Stile del nav */
+nav{
+    margin: auto 100px auto 100px;
+    background-color: lime;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Stile per tutti i tag che hanno come classe .item */
+.item{
+    margin-top: 35px ;
+    margin-left: 100px;
+    color: white;
+}
+
+/* Stile per tutti gli h2 all'interno di una classe item */
+.item > h2{
+    color: white;
+    display: inline;
+}
+
+/* Stile per la barra di carica a livello medio */
+.item > .mid-level-charge{
+    width: 30%;
+    height: 30px;
+    background-color:rgb(230, 180, 54);
+    border-radius: 10px;
+}
+
+/* Stile per la barra di carica a livello alto */
+.item > .big-level-charge{
+    width:60%;
+    height: 30px;
+    background-color: rgb(122, 192, 18);
+    border-radius: 10px;
+}
+
+/* Stile per la barra di carica a livello basso */
+.item > .low-level-charge{
+    width:15%;
+    height: 30px;
+    background-color: rgb(170, 31, 31);
+    border-radius: 10px;
+}
